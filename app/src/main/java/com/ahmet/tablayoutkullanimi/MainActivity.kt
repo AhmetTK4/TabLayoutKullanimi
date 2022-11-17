@@ -33,6 +33,8 @@ class MainActivity : AppCompatActivity() {
         }.attach()
 
         tablayout.getTabAt(2)!!.setIcon(R.drawable.resim)
+        tablayout.getTabAt(1)!!.setIcon(R.drawable.run)
+        tablayout.getTabAt(0)!!.setIcon(R.drawable.swim)
     }
 
     inner class MyViewPagerAdapter(fragmentActivity: FragmentActivity):FragmentStateAdapter(fragmentActivity){
